@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VStyping</title>
+    <link rel="stylesheet" type="text/css" href="style_copy.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <h1>Welcome to VS Typing </h1>
+    <div class="container">
+         
+
+        <div class="main">
+          <div class="word">
+            <p id="word">Press Enter!</p>
+           
+          </div>
+            
+            <textarea id="textarea" cols="48" rows="6" disabled spellcheck="false" ></textarea>
+               <br>
+              <div class="radiobutton">
+               <div class="radio">
+                  <label><input type="radio" name="beginner" id="Learner">Learner</label>
+                <label><input type="radio" name="beginner" id="Beginner">Beginner</label>
+                <br>
+                <label><input type="radio" name="beginner"  id="Medium">Medium</label>
+                <label><input type="radio" name="beginner" id="Pro">Pro</label>
+               </div>
+               <!-- <br> -->
+              
+               <div class="button">
+            <button id="Start" >Start</button>
+            <button id="Restart" >Restart</button>
+           </div>
+        </div>
+        
+           <div class="rangeshowr">
+            <p>Set Word length</p>
+            
+            <span class="range"><input type="range" id="range" min="1" max="35" value="15"></span>
+            <span class="showr"><input type="text" id="showrangevalue" disabled value="15"></span>
+         </div>
+        
+    
+        </div>
+
+
+        <div class="result">
+            <div class="speed">
+               <h2 class="h2">Statistics</h2>
+               <div class="curr_speed">
+               <input type="text" disabled  id="curr_speed">
+               <p>wpm</p>
+            </div>
+            <div class="pre_speed">
+                <input type="text" disabled  id="pre_speed">
+                <p>Pre wpm</p>
+             </div>
+            </div>
+
+            <div class="accuracy">
+               <h2 class="h2"> </h2>
+               <div class="curr_accuracy">
+                <input type="text" disabled  id="curr_accuracy">
+                <p>Accuracy%</p>
+             </div>
+             <div class="pre_accuracy">
+                 <input type="text" disabled  id="pre_accuracy">
+                 <p>Pre Accuracy%</p>
+              </div>
+            </div>
+
+
+        </div>
+ 
+    </div> 
+
+    <script type="module" src="script.js"></script>
+
+    
+</body>
+</html>
