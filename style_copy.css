@@ -42,7 +42,7 @@ h1{
 .word{
     background-color: #fff;
     height:150px;
-    width:920px;
+    width:955px;
     margin-top:17px;
     margin-left: 20px;
     border-radius: 8px;
@@ -65,7 +65,7 @@ h1{
     word-spacing: 3px;
     border-radius: 8px;
     height:230px;
-    width:920px;
+    width:955px;
 }
 label,span{
     background-color: #e3dfd2;
