@@ -42,7 +42,7 @@ h1{
 .word{
     background-color: #fff;
     height:150px;
-    width:958px;
+    width:920px;
     margin-top:17px;
     margin-left: 20px;
     border-radius: 8px;
@@ -64,6 +64,8 @@ h1{
     font-family: 'Poppins', sans-serif;
     word-spacing: 3px;
     border-radius: 8px;
+    height:230px;
+    width:920px;
 }
 label,span{
     background-color: #e3dfd2;
@@ -118,7 +120,7 @@ label{
     margin-top: 15px;
     margin-left:140px;
     background-color: #e3dfd2;
-    width: 300px;
+    width: 270px;
    
    
 }
